@@ -1,14 +1,14 @@
 body{background-color: #22254b;}
 
 .movie{height:400px;
-max-width:300px;
+width:300px;
 background-color: #373b69;
 color:hsl(0 0% 100%);
 margin:20px 25px 20px 25px;
 overflow:hidden;
 position:relative;}
 
-.movie img{max-width:100%;
+.movie img{width:100%;
 height:350px;}
 
 .movie-info {display:flex;
@@ -57,10 +57,6 @@ height:auto;
 background-color:#373b69;}
 
 
-@media and screen only(min-width:375px){
-.movie{padding-right:20px;}
-
-}
 
 
 
